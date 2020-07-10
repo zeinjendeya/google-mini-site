@@ -1,0 +1,118 @@
+body{
+    font-size: small;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: #222;
+}
+
+ul[list]{
+    color: gray;
+    list-style-type: none;
+    margin-left: -55px;
+    float: left;
+}
+
+
+
+li{
+    padding: 7px;
+    float: left;
+}
+
+img{
+    padding-top: 100px;
+    padding-left: 90px;
+    height: 92px;
+    width: 270px;
+    display: flex;
+    flex-direction: initial;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    background-color: solid rgb(223, 225, 229);
+    border-radius: 30px;
+    margin-top: -40;
+    margin: auto;
+    font-size: 20px;
+    height: 34px;
+    width: 500px;
+    display: flex;
+    text-align: center;
+}
+
+button{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    padding: 15 15px;
+    margin: 5px;
+    height: 40px;
+    min-width: 55px;
+ }
+
+div{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#under-name{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p[new]{
+    color: rgb(51, 48, 48);
+    height: 5px;
+    width: 5px;
+    line-height: 40px;
+    padding: auto;
+    margin-left: -1px;
+    float: left;
+    border-bottom-color: gray;
+}
+
+a{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    float: right;
+    padding: 5px;
+    color: rgb(51, 48, 48);
+}
+
+div[name]{
+    font-size: 14px;
+    color: gray;
+    background-color: solid rgb(223, 225, 229);
+    border-bottom-color: gray;
+    height: 80px;
+    width: 100%;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 5px;
+    padding-left: 30px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+     bottom: 0;
+     left: 0;
+}
+
+
+
